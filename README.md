@@ -12,6 +12,8 @@ The "Attributes inspector" for the custom properties this project adds look like
 
 ![image](IBInspectable IB Attributes inpsector.png)
 
+Simply adding the `UIView+LayerProperties.h` and `UIView+LayerProperties.m` files to your project, these new properites appear in the IB Attributes inspector and changing them causes your view to draw with the specified border and background color settings.
+
 Prior to the addition of `IBInspectable`, you had to use "User Defined Runtime Attributes" to set custom properties. This was a write-only option, and required that you know the correct keypath and data type to set the desired property, and if you got it wrong, your program crashed at runtime with a very cryptic message about a class not being compliant the KVC protocol for a property.
 
 I often find myself wanting to add a border to views. I might want to make the border of a view's layer a custom color, vary the line thickness, and/or add rounded corners. It is also sometimes usesful to alter the background color of a border's layer (as distinct from the view's background color.)
@@ -34,6 +36,7 @@ The result of creating a simple UIView with the settings above (light blue 1 poi
 ![image](IBInspectable layer settings results.png)
 
 Unfortunately, as of this writing, the IB_DESIGNABLE attribute, which causes Xcode to render your custom views directly in IB, does not seem to work for categories.
+
 
 
 The code for the category is below. It's very simple.
