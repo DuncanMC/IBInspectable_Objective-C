@@ -14,6 +14,8 @@
 		AE7FF75E1AEED05900AD5E03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7FF75D1AEED05900AD5E03 /* Images.xcassets */; };
 		AE7FF7611AEED05900AD5E03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7FF75F1AEED05900AD5E03 /* LaunchScreen.xib */; };
 		AE7FF76D1AEED05900AD5E03 /* IBInspectable_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7FF76C1AEED05900AD5E03 /* IBInspectable_Objective_CTests.m */; };
+		AE7FF7781AEED07F00AD5E03 /* UIView+LayerProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7FF7771AEED07F00AD5E03 /* UIView+LayerProperties.m */; };
+		AEF7C5FA1AEF16F30023FAAE /* IBInspectable IB Attributes inpsector.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF7C5F91AEF16F30023FAAE /* IBInspectable IB Attributes inpsector.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		AE7FF7661AEED05900AD5E03 /* IBInspectable_Objective-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IBInspectable_Objective-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7FF76B1AEED05900AD5E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE7FF76C1AEED05900AD5E03 /* IBInspectable_Objective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBInspectable_Objective_CTests.m; sourceTree = "<group>"; };
+		AE7FF7761AEED07F00AD5E03 /* UIView+LayerProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerProperties.h"; sourceTree = "<group>"; };
+		AE7FF7771AEED07F00AD5E03 /* UIView+LayerProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerProperties.m"; sourceTree = "<group>"; };
+		AEF7C5F91AEF16F30023FAAE /* IBInspectable IB Attributes inpsector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IBInspectable IB Attributes inpsector.png"; sourceTree = SOURCE_ROOT; };
+		AEF7C5FB1AEF1A600023FAAE /* IBInspectable layer settings results.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IBInspectable layer settings results.png"; sourceTree = SOURCE_ROOT; };
+		AEF7C5FC1AEF1AC60023FAAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,8 @@
 				AE7FF75D1AEED05900AD5E03 /* Images.xcassets */,
 				AE7FF75F1AEED05900AD5E03 /* LaunchScreen.xib */,
 				AE7FF7501AEED05900AD5E03 /* Supporting Files */,
+				AE7FF7761AEED07F00AD5E03 /* UIView+LayerProperties.h */,
+				AE7FF7771AEED07F00AD5E03 /* UIView+LayerProperties.m */,
 			);
 			path = "IBInspectable_Objective-C";
 			sourceTree = "<group>";
@@ -96,6 +105,9 @@
 		AE7FF7501AEED05900AD5E03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AEF7C5FC1AEF1AC60023FAAE /* README.md */,
+				AEF7C5F91AEF16F30023FAAE /* IBInspectable IB Attributes inpsector.png */,
+				AEF7C5FB1AEF1A600023FAAE /* IBInspectable layer settings results.png */,
 				AE7FF7511AEED05900AD5E03 /* Info.plist */,
 				AE7FF7521AEED05900AD5E03 /* main.m */,
 			);
@@ -201,6 +213,7 @@
 			files = (
 				AE7FF75C1AEED05900AD5E03 /* Main.storyboard in Resources */,
 				AE7FF7611AEED05900AD5E03 /* LaunchScreen.xib in Resources */,
+				AEF7C5FA1AEF16F30023FAAE /* IBInspectable IB Attributes inpsector.png in Resources */,
 				AE7FF75E1AEED05900AD5E03 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7FF7781AEED07F00AD5E03 /* UIView+LayerProperties.m in Sources */,
 				AE7FF7591AEED05900AD5E03 /* ViewController.m in Sources */,
 				AE7FF7561AEED05900AD5E03 /* AppDelegate.m in Sources */,
 				AE7FF7531AEED05900AD5E03 /* main.m in Sources */,
@@ -418,6 +432,7 @@
 				AE7FF7721AEED05900AD5E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE7FF7731AEED05900AD5E03 /* Build configuration list for PBXNativeTarget "IBInspectable_Objective-CTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				AE7FF7751AEED05900AD5E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
